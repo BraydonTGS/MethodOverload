@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using MethodOverload;
 
+Console.WriteLine(Overload.Add(0, 1, true));
+Console.ReadLine();
